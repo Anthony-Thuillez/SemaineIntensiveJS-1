@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link class="pageStyle" rel="stylesheet" href="assets/css/default.css">
+  <title>NetShflix</title>
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="container">
+      <div class="menu">
+        <div class="containerLogo">
+          <a href="#"><img src="assets/img/logo.png" alt="logo" class="logo"></a>
+        </div>
+        <nav class="navigation">
+          <ul class="listContainer">
+            <li class="listItem"><a href="" class="listItemLink">Accueil</a></li>
+            <li class="listItem"><a href="" class="listItemLink">Catégories</a>
+              <ul class="videoContent">
+                <li class="videoList"><a class="videoLink" href="#">Tout voir</a></li>
+                <li class="videoList"><a class="videoLink" href="#">Action</a></li>
+                <li class="videoList"><a class="videoLink" href="#">Animation</a></li>
+                <li class="videoList"><a class="videoLink" href="#">Comedie</a></li>
+                <li class="videoList"><a class="videoLink" href="#">Horreur / Thriller</a></li>
+              </ul>
+            </li>
+            <li class="listItem"><a href="" class="listItemLink">Favoris</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="panel">
+        <div class="search">
+          <form class="formSearch">
+            <input class="searchInput" type="text" value="" placeholder="rechercher">
+          </form>
+          <a href="#" class="searchIcon"><img class="searchImgLink" src="assets/img/searchDay.png" title="Rechercher" alt="recherche"></a>
+        </div>
+        <a href="#" class="profilIcon"><img class="profilImgLink" src="assets/img/userDay.png" title="Connexion" alt="se connecter"></a>
+        <div class="openProfil_modal">
+          <div class="openProfil_overlay"></div>
+          <div class="openProfil_content">
+            <form>
+              <input class="identifiant allId" type="text" placeholder="identifiant">
+              <input class="mdp allId" type="text" placeholder="mot de passe">
+            </form>
+            <a class="login" href="#">Se connecter</a>
+            <a class="register" href="#">Créez votre compte</a>
+          </div>
+        </div>
+        <input title="Mode Nuit" type="checkbox" class="toggleSwitch">
+      </div>
+    </div>
+  </header>
+
+  <h2 class="nouveaute">Tout les films</h2>
+
+  <section class="afficheAll">
+
+    <div class="afficheContent">
+    </div>
+
+  </section>
+  <footer class="footer">
+
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html
